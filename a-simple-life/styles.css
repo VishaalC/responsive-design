@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Ubuntu', sans-serif;
-    line-height: 1.5em;
+    line-height: 1.6;
 }
 
 h1,h2,h3 {
@@ -54,6 +54,7 @@ header {
     padding: 2em;
     text-align: center;
     margin-bottom: 2em;
+    line-height: 1.4;
 }
 
 header h1 {
@@ -167,6 +168,7 @@ strong {
     font-size: 1.125rem;
     font-weight: bold;
     letter-spacing: 2px;
+    line-height: 1.4;
 }
 
 .widget-body {
@@ -288,7 +290,7 @@ strong {
 /*footer*/
 footer {
     background: #143774;
-    color: white;
+    color: rgba(255, 255, 255, 0.6);
     text-align: center;
-    padding: 3em 0;
+    padding: 1.5em 0;
 }
