@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: 1rem;
+    font-family: 'Source Sans Pro', sans-serif; 
+    color: #5A5A5A;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    color: #FFFFFF;
+    font-size: 2.25rem;
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 1.3125rem;
+    color: #404040;
+    margin: 0;
+}
+
+h1 + p {
+    color: #F18119;
+    font-size: 1.3125rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+h2 + p {
+    margin-top: 0;
+    color: #F18119;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.top-text {
+    font-size: 0.625rem;
+    padding-top: 3px;
+    color: #F18119;
+    font-weight: 900;
+    text-transform: uppercase;
+    order: -1;
+    border-top: 5px solid #F18119;
+    letter-spacing: 2.7px;
+    border-image: linear-gradient(to left, #ff713b, 50%,#ffa51d) 1;
+    margin: 0 auto;
+}
+
+strong {
+    font-weight: 900;
+}
+
+
+.fine-print {
+    font-size: 0.625rem;
+    letter-spacing: 1px;
+    width: 40%;
+    margin: 0.5em auto;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    background-color: #404040;
+    background-position: center;
+    background-image: url(images/dark-ribs.jpg);
+    background-size: cover;
+    padding: 0 5em 2em;
+    min-height: 50vh;
+}
+
+.main-content {
+    padding: 1em 1em;
+}
+
+.email-collector {
+    width: 80%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+input {
+    padding: 0.5em;
+    color: #404040;
+    font-size: 1rem;
+    font-weight: lighter;
+    border-radius: 0.5rem;
+    border: 1.5px solid #818181;
+    transform: scale(1);
+    transition: transform 250ms;
+}
+
+input, .btn {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0.8em;
+    font-family: inherit;
+}
+
+.btn-primary {
+    padding: 1.3em;
+    color:#FFFFFF;   
+    background-image:linear-gradient(to left, #FF713B, #FFA51D);
+    border-radius: 0.5rem;
+    border: 0px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    font-size: 0.7rem;
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform 250ms ;
+}
+
+.btn-primary:hover,
+.btn-primary:focus { 
+    transform: scale(1.1);
+}
+
+input:focus {
+    transform: scale(1.1);
+}
+ 
+@media (min-width: 500px) {
+    body {
+        font-size: 1.125rem;
+        display: flex;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    h2,
+    h1 + p { 
+        font-size: 1.75rem;
+    }
+
+    .intro {
+        width: 55%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+    }
+
+    .main-content {
+        width: 45%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center ;
+    }
+     
+} 
+
+ 
